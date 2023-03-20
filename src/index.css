@@ -817,8 +817,8 @@
     }
 
     .Footer-content-maps {
-        transform: translate(-50px, 10px);
-        scale: 1.2;
+        transform: translate(-50px, -30px);
+        scale: 0.5;
     }
 
     .Footer-content-policy {
@@ -849,15 +849,9 @@
     .Footer-550pxhiden {
         display: none;
     }
-
-    .Footer-content-maps {
-        transform: translate(-50px, 10px);
-        scale: 0.8;
-    }
-
     .SlideIntroduce {
         width: 100%;
-        margin-bottom: 10px;
+        margin-bottom: 5px;
     }
 
     /*Footer*/
