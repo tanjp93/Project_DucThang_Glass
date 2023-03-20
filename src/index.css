@@ -710,6 +710,9 @@
     .header-menu-icon {
         scale: 0.5;
     }
+     .header-supportPhoneNumber span {
+        scale: 0.5;
+    }
 
     .Footer-content-maps {
         transform: translate(-100px, 10px);
