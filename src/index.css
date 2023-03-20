@@ -23,6 +23,7 @@
 
 .header-col3 {
     width: 100%;
+    height: 100px;
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
@@ -84,8 +85,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-    padding-top: 10px;
+    gap: 10px;
+    padding-top: 5px;
 }
 
 .header-items li:hover {
@@ -501,6 +502,10 @@
         width: 95%;
     }
 
+    .header-menu-icon {
+        scale: 0.8;
+    }
+
     .Footer-content-maps {
         transform: translate(-100px, 10px);
         scale: 0.8;
@@ -508,6 +513,11 @@
 
     .header-title p {
         font-size: 18px;
+    }
+
+    .header-items {
+        gap: 5px;
+        padding-top: 5px;
     }
 
     .CompanyFeature {
@@ -589,6 +599,10 @@
         font-size: 10px;
     }
 
+    .header-menu-icon {
+        scale: 0.6;
+    }
+
     .tnmGeneral-companyImg {
         width: 50%;
         height: 220px;
@@ -602,31 +616,94 @@
         overflow: hidden;
     }
 
-    .Footer-Img img {
+    .Footer-550pxhiden {
+        display: none;
+    }
+
+    .Footer-content {
         width: 50%;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+
+
+    .Footer-content-Title p {
+        width: 100%;
+        font-size: 12px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .Footer-content-maps {
+        transform: translate(-20px, 10px);
+        scale: 0.75;
+    }
+
+    .Footer-content-policy {
+        width: 100%;
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .Footer-content-policy p {
+        margin-bottom: 5px;
+    }
+
+    .Footer-Img {
+        width: 100%;
+        display: flex;
+    }
+
+
+    .Footer-map {
+        width: 100%;
+    }
+
+    .Footer-Img img {
+        width: 15%;
         margin-left: 5px;
-        height: 15px
+        height: 25px
     }
 }
 
 @media only screen and (max-width: 550px) {
+
     .App-container {
         width: 100%;
     }
+
     .App {
         font-size: 8px;
     }
+
     .App-container {
         width: 99%;
     }
 
+    .header-container {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .header-col3 {
+        height: 70px;
+        margin-bottom: 2px;
+    }
+
+
+    .header-logo img {
+        margin: 5px;
+    }
+    .header-menu-icon {
+        scale: 0.5;
+    }
     .Footer-content-maps {
         transform: translate(-100px, 10px);
         scale: 0.8;
     }
 
     .header-title p {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .CompanyFeature {
@@ -645,7 +722,7 @@
 
     .SlideIntroduce-Img {
         width: 100%;
-        height: 250px;
+        height: 150px;
     }
 
     .CompanyFeature-title {
@@ -687,7 +764,7 @@
 
     .companyInfor-title {
         font-size: 12px;
-        margin:5px 10px;
+        margin: 5px 10px;
     }
 
     .tnmGeneral-nameCompany {
@@ -697,6 +774,93 @@
     .tnmCertificateds h1 {
         font-size: 12px;
     }
+
+    /*Footer*/
+    .Footer {
+        width: 100%;
+        padding-bottom: 5px;
+        background-color: rgb(247, 250, 252);
+        overflow: hidden;
+    }
+
+    .Footer-logo {
+        width: 20%;
+        padding: 10px 10px;
+    }
+
+    .Footer-logo img {
+        width: 100%;
+    }
+
+    .Footer-contents {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        box-sizing: border-box;
+    }
+
+    .Footer-content {
+        width: 50%;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+
+    .Footer-content-Title {
+        width: 100%;
+    }
+
+    .Footer-content-Title p {
+        width: 100%;
+        font-size: 10px;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    .Footer-content-maps {
+        transform: translate(-50px, 10px);
+        scale: 1.2;
+    }
+
+    .Footer-content-policy {
+        width: 100%;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .Footer-content-policy p {
+        margin-bottom: 5px;
+    }
+
+    .Footer-Img {
+        width: 100%;
+        display: flex;
+    }
+
+    .Footer-Img img {
+        width: 20%;
+        margin-left: 5px;
+        height: 35px
+    }
+
+    .Footer-map {
+        width: 100%;
+    }
+
+    .Footer-550pxhiden {
+        display: none;
+    }
+
+    .Footer-content-maps {
+        transform: translate(-50px, 10px);
+        scale: 0.8;
+    }
+
+    .SlideIntroduce {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    /*Footer*/
 }
 
 /* //1028

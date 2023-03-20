@@ -26,7 +26,7 @@ const Footer = () => {
                         <img src={imgIso3} alt="" />
                     </div>
                 </div>
-                <div className='Footer-content'>
+                <div className='Footer-content Footer-550pxhiden'>
                     <div className='Footer-content-Title'>
                         <p>Chính sách và quy định</p>
                     </div>
@@ -43,11 +43,11 @@ const Footer = () => {
                         <p>Chính sách bảo mật thông tin</p>
                     </div>
                 </div>
-                <div className='Footer-content'>
+                <div className='Footer-content Footer-550pxhiden'>
                     <div className='Footer-content-Title'>
                         <p>Về Chúng Tôi</p>
                     </div>
-                    <div className='Footer-content-policy'>
+                    <div className='Footer-content-policy '>
                         <p>Hồ sơ năng lực</p>
                         <p>Báo giá</p>
                         <p>Sản Phẩm</p>
