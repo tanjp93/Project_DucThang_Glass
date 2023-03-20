@@ -42,8 +42,8 @@ const Products = () => {
     ];
     const dispatch=useDispatch();
     const [showImg,setImg]=useState(listProducts[0].productImgSrc);
-    useEffect(()=>{
-    },[showImg]) ;  
+    // useEffect(()=>{
+    // },[showImg]) ;  
      useEffect(()=>{
         dispatch(act_showListProduct(listProducts));
     },[])

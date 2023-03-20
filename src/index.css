@@ -67,6 +67,7 @@
     font-size: 25px;
     font-weight: bold;
     text-align: center;
+    color: crimson;
 }
 
 
@@ -75,10 +76,10 @@
 .header-items {
     width: 100%;
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
-    gap: 25px;
-    padding-left: 15%;
+    gap: 20px;
+    padding-top: 10px;
 }
 
 .header-items li:hover {
