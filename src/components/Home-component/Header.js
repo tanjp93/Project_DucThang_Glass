@@ -17,7 +17,7 @@ const Header = () => {
                 <ul className='header-items'>
                     <li onClick={()=>{ navigate("/")}}>Trang Chủ</li>
                     <li onClick={()=>{navigate("/company-Information")}} >Giới Thiệu</li>
-                    <li>Sản Phẩm</li>
+                    <li  onClick={()=>{navigate("/products")}}>Sản Phẩm</li>
                     <li>Tin Tức</li>
                     <li>Dự Án</li>
                     <li>Liên Hệ </li>

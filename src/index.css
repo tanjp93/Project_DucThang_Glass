@@ -291,6 +291,7 @@
 .Footer-content {
     width: 25%;
     padding: 20px 50px;
+    box-sizing: border-box;
 }
 
 .Footer-content-Title {
@@ -302,6 +303,10 @@
     font-size: 16px;
     font-weight: bold;
     margin-bottom: 10px;
+}
+.Footer-content-maps{
+    transform: translate(-50px,10px);
+    scale: 1.2;
 }
 
 .Footer-content-policy {
