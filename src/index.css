@@ -1,0 +1,448 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Ap*/
+.App {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.App-container {
+    width: 90%;
+}
+
+.header-container {
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+.header-col3 {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    background-image: linear-gradient(-45deg, rgb(117, 117, 243) 75%, white 30%);
+    /* position: fixed;
+      left: 0;
+      top: 0; */
+    z-index: 1;
+}
+
+.header-logo {
+    width: 10%;
+    box-sizing: border-box;
+}
+
+.header-logo img {
+    width: 100%;
+    margin: 10px;
+    z-index: -1;
+}
+.header-logo img:hover {
+    cursor: pointer;
+}
+
+.header-items {
+    width: 60%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 15px;
+    padding-left: 15%;
+}
+
+.header-items li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: coral;
+}
+
+.header-menu {
+    width: 30%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.header-supportPhoneNumber {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 50%;
+    transform: translateX(-30px);
+}
+
+/*---------------------Body-----------------------*/
+.body {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.Comercial-Slide_container {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.Comercial-introduce {
+    width: 100%;
+    padding: 50px 100px;
+    background-color: #dddd;
+}
+
+.Comercial-slogan {
+    width: 60%;
+    padding: 0px 30px;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.Comercial-introduce-Items {
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    height: 40px;
+}
+
+.Comercial-introduce-item {
+    width: 30%;
+    padding-left: 10px;
+    width: auto;
+    border: 1px solid rgb(8, 150, 74);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.Comercial-introduce-item:hover {
+    background-color: rgb(8, 150, 74);
+
+}
+
+.Comercial-introduce-item span {
+    font-weight: bold;
+}
+
+.Comercial-introduce-item:hover {
+    cursor: pointer;
+    background-color: rgb(8, 150, 74);
+}
+
+/*SlideIntroduce*/
+.SlideIntroduce {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.SlideIntroduce-Img {
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+}
+
+.SlideIntroduce-Img img {
+    width: 100%;
+    transform: translateY(-200px);
+}
+
+/*-------------------CompanyFeature-----------*/
+.CompanyFeature {
+    width: 100%;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+}
+
+.CompanyFeature-title {
+    width: 100%;
+    padding-left: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.CompanyFeature-content {
+    width: 60%;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+.CompanyFeature-contentImpress {
+    width: 60%;
+    padding-left: 20px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.CompanyFeature button {
+    margin-left: 20px;
+    width: 10%;
+    height: 40px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(8, 150, 74);
+}
+
+.CompanyFeature button:hover {
+    cursor: pointer;
+    background-color: rgb(8, 150, 74);
+}
+
+.products-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+    background-color: rgb(167, 167, 238);
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+.products-list {
+    padding-top: 20px;
+    width: 60%;
+    box-sizing: border-box;
+}
+
+.products-list-Title {
+    width: 100%;
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.list-introduce {
+    padding-left: 20px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.products {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.products p {
+    width: 50%;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+.products p:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: coral
+}
+
+.products-Img {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    height: 450px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.products-Img img {
+    width: 100%;
+    border-radius: 25px;
+}
+
+
+/*Footer*/
+.Footer {
+    width: 100%;
+    padding-bottom: 10px;
+    background-color: rgb(247, 250, 252);
+}
+
+.Footer-logo {
+    width: 20%;
+    padding: 10px 20px;
+}
+
+.Footer-logo img {
+    width: 100%;
+}
+
+.Footer-contents {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.Footer-content {
+    width: 25%;
+    padding: 20px 50px;
+}
+
+.Footer-content-Title {
+    width: 100%;
+}
+
+.Footer-content-Title p {
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.Footer-content-policy {
+    width: 100%;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.Footer-content-policy p {
+    margin-bottom: 5px;
+}
+
+.Footer-Img {
+    width: 100%;
+    display: flex;
+}
+
+.Footer-Img img {
+    width: 50%;
+    margin-left: 10px;
+    height: 50px
+}
+
+.Footer-map {
+    width: 100%;
+}
+
+/*Footer*/
+/*CompanyInfor*/
+.companyInfor-container {
+    width: 100%;
+    height: auto;
+}
+
+.companyInfor-titles {
+    width: 100%;
+    height: auto;
+    background-color: #3333;
+}
+
+.companyInfor-changePages {
+    width: 60%;
+    height: 50px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 20px 50px;
+    gap: 25px;
+}
+
+.companyInfor-changePage:hover {
+    cursor: pointer;
+    color: coral;
+    text-decoration: underline;
+
+}
+
+.companyInfor-title {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 20px 50px;
+
+}
+
+.companyInfor-title-items {
+    width: 100%;
+    height: 50px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 25px;
+}
+
+.companyInfor-title-items p:hover {
+    cursor: pointer;
+    color: coral;
+    text-decoration: underline;
+}
+
+/*CompanyInfor*/
+/*TanNhatMinhGeneral*/
+.tnmGeneral-container {
+    width: 100%;
+    height: auto;
+    margin: 20px 0px;
+}
+
+.tnmGeneral-introduce {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    gap: 20px;
+}
+.tnmGeneral-title{
+    width: 50%;
+}
+.tnmGeneral-nameCompany {
+    width: 100%;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.tnmGeneral-infor {
+    width: 100%;
+}
+.tnmGeneralMarginBtm{
+    margin-bottom: 10px;
+}
+.tnmGeneral-companyImg{
+    width: 50%;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+    
+}
+.tnmGeneral-companyImg img{
+    width: 100%;
+}
+.tnmCertificateds{
+    width: 100%;
+    box-sizing: border-box;
+}
+.tnmCertificateds h1{
+    width: 100%;
+    font-size: 25px;
+    font-weight: bold;
+}
+.tnmCertificated{
+    width: 100%;
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.tnmCertificated img{
+    width: 23%;
+    margin: 10px 0px;
+}
+
+
+/*TanNhatMinhGeneral*/
