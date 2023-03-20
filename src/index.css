@@ -18,8 +18,7 @@
 
 .header-container {
     width: 100%;
-    margin-bottom: 10px;
-
+    margin-bottom: 5px;
 }
 
 .header-col3 {
@@ -27,8 +26,8 @@
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
-    margin-bottom: 10px;
+    flex-wrap: nowrap;
+    margin-bottom: 5px;
     /* background-image: linear-gradient(-45deg, rgb(117, 117, 243) 75%, white 30%); */
     /* position: fixed;
       left: 0;
@@ -39,18 +38,25 @@
 .header-logo {
     width: 10%;
     box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header-logo img {
     width: 100%;
     margin: 10px;
     z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 .header-logo img:hover {
     cursor: pointer;
 }
 
-.header-title{
+.header-title {
     width: 60%;
     display: flex;
     flex-wrap: wrap;
@@ -62,7 +68,7 @@
     padding-left: 70px;
 }
 
-.header-title p{
+.header-title p {
     width: 100%;
     font-size: 25px;
     font-weight: bold;
@@ -102,11 +108,10 @@
     align-items: center;
     justify-content: start;
     width: 80%;
-    height: 50%; 
+    height: 50%;
 }
-.header-menu-icon{
-    
-}
+
+.header-menu-icon {}
 
 /*---------------------Body-----------------------*/
 .body {
@@ -168,12 +173,12 @@
 /*SlideIntroduce*/
 .SlideIntroduce {
     width: 100%;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .SlideIntroduce-Img {
     width: 100%;
-    height: 700px;
+    height: 600px;
     overflow: hidden;
 }
 
@@ -282,6 +287,7 @@
     height: 450px;
     overflow: hidden;
     box-sizing: border-box;
+    padding: 10px 10px 10px 0px;
 }
 
 .products-Img img {
@@ -295,6 +301,7 @@
     width: 100%;
     padding-bottom: 10px;
     background-color: rgb(247, 250, 252);
+    overflow: hidden;
 }
 
 .Footer-logo {
@@ -329,8 +336,9 @@
     font-weight: bold;
     margin-bottom: 10px;
 }
-.Footer-content-maps{
-    transform: translate(-50px,10px);
+
+.Footer-content-maps {
+    transform: translate(-50px, 10px);
     scale: 1.2;
 }
 
@@ -374,12 +382,12 @@
 
 .companyInfor-changePages {
     width: 60%;
-    height: 50px;
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    margin: 20px 50px;
+    height: 30px;
+    margin: 20px 30px;
     gap: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .companyInfor-changePage:hover {
@@ -393,7 +401,6 @@
     font-size: 25px;
     font-weight: bold;
     margin: 20px 50px;
-
 }
 
 .companyInfor-title-items {
@@ -426,9 +433,11 @@
     display: flex;
     gap: 20px;
 }
-.tnmGeneral-title{
+
+.tnmGeneral-title {
     width: 50%;
 }
+
 .tnmGeneral-nameCompany {
     width: 100%;
     font-size: 25px;
@@ -439,29 +448,34 @@
 .tnmGeneral-infor {
     width: 100%;
 }
-.tnmGeneralMarginBtm{
+
+.tnmGeneralMarginBtm {
     margin-bottom: 10px;
 }
-.tnmGeneral-companyImg{
+
+.tnmGeneral-companyImg {
     width: 50%;
     height: 300px;
     overflow: hidden;
     border-radius: 10px;
-    
 }
-.tnmGeneral-companyImg img{
+
+.tnmGeneral-companyImg img {
     width: 100%;
 }
-.tnmCertificateds{
+
+.tnmCertificateds {
     width: 100%;
     box-sizing: border-box;
 }
-.tnmCertificateds h1{
+
+.tnmCertificateds h1 {
     width: 100%;
     font-size: 25px;
     font-weight: bold;
 }
-.tnmCertificated{
+
+.tnmCertificated {
     width: 100%;
     margin: 20px 0px;
     display: flex;
@@ -469,10 +483,226 @@
     gap: 10px;
     flex-wrap: wrap;
 }
-.tnmCertificated img{
+
+.tnmCertificated img {
     width: 23%;
     margin: 10px 0px;
 }
 
 
 /*TanNhatMinhGeneral*/
+
+@media only screen and (max-width: 1024px) {
+    .App {
+        font-size: 14px;
+    }
+
+    .App-container {
+        width: 95%;
+    }
+
+    .Footer-content-maps {
+        transform: translate(-100px, 10px);
+        scale: 0.8;
+    }
+
+    .header-title p {
+        font-size: 18px;
+    }
+
+    .CompanyFeature {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .Comercial-introduce {
+        width: 100%;
+        padding: 20px 30px;
+    }
+
+    .Comercial-slogan {
+        font-size: 18px;
+    }
+
+    .SlideIntroduce-Img {
+        width: 100%;
+        height: 350px;
+    }
+
+    .CompanyFeature-title {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+
+    .products-list-Title {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+
+    .products-Img {
+        padding: 10px 10px 10px 0px;
+        height: 250px;
+    }
+
+    .products-Img img {
+        width: 100%;
+        border-radius: 25px;
+    }
+
+    .companyInfor-changePages {
+        width: 60%;
+        height: 30px;
+        margin: 10px 50px;
+        gap: 18px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+
+
+    .Footer-Img img {
+        width: 50%;
+        margin-left: 5px;
+        height: 30px
+    }
+
+    .companyInfor-title {
+        font-size: 18px;
+        margin: 10px 20px;
+    }
+
+    .tnmGeneral-nameCompany {
+        font-size: 18px;
+    }
+
+    .tnmCertificateds h1 {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .App-container {
+        width: 98%;
+    }
+
+    .App {
+        font-size: 10px;
+    }
+
+    .tnmGeneral-companyImg {
+        width: 50%;
+        height: 220px;
+        overflow: hidden;
+        border-radius: 10px;
+    }
+
+    .SlideIntroduce-Img {
+        width: 100%;
+        height: 250px;
+        overflow: hidden;
+    }
+
+    .Footer-Img img {
+        width: 50%;
+        margin-left: 5px;
+        height: 15px
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .App-container {
+        width: 100%;
+    }
+    .App {
+        font-size: 8px;
+    }
+    .App-container {
+        width: 99%;
+    }
+
+    .Footer-content-maps {
+        transform: translate(-100px, 10px);
+        scale: 0.8;
+    }
+
+    .header-title p {
+        font-size: 12px;
+    }
+
+    .CompanyFeature {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .Comercial-introduce {
+        width: 100%;
+        padding: 10px 20px;
+    }
+
+    .Comercial-slogan {
+        font-size: 12px;
+    }
+
+    .SlideIntroduce-Img {
+        width: 100%;
+        height: 250px;
+    }
+
+    .CompanyFeature-title {
+        font-size: 12px;
+        margin-bottom: 3px;
+    }
+
+    .products-list-Title {
+        font-size: 12px;
+        margin-bottom: 3px;
+    }
+
+    .products-Img {
+        padding: 5px 5px 5px 0px;
+        height: 200px;
+    }
+
+    .products-Img img {
+        width: 100%;
+        border-radius: 15px;
+    }
+
+    .companyInfor-changePages {
+        width: 60%;
+        height: 20px;
+        margin: 5px 30px;
+        gap: 5px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+
+
+    .Footer-Img img {
+        width: 50%;
+        margin-left: 3px;
+        height: 25px
+    }
+
+    .companyInfor-title {
+        font-size: 12px;
+        margin:5px 10px;
+    }
+
+    .tnmGeneral-nameCompany {
+        font-size: 12px;
+    }
+
+    .tnmCertificateds h1 {
+        font-size: 12px;
+    }
+}
+
+/* //1028
+//1200
+//991
+//767
+//550
+//375
+//280 */
