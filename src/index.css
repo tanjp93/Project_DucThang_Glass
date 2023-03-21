@@ -8,7 +8,7 @@
     height: 100%;
     display: flex;
     justify-content: center;
-    font-family:Arial, Helvetica, sans-serif ;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
 }
 
@@ -155,8 +155,8 @@
     border-radius: 5px;
     padding: 5px;
     display: flex;
-   align-items: center;
-   justify-content: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .Comercial-introduce-item:hover {
@@ -546,13 +546,16 @@
         margin-bottom: 5px;
         width: 100%;
     }
-    .CompanyFeature-content{
+
+    .CompanyFeature-content {
         width: 100%;
     }
-    .CompanyFeature button{
+
+    .CompanyFeature button {
         width: 30%;
     }
-    .CompanyFeature-contentImpress{
+
+    .CompanyFeature-contentImpress {
         margin-bottom: 10px;
     }
 
@@ -702,7 +705,10 @@
         margin-bottom: 2px;
     }
 
-
+    .header-logo{
+        scale:2;
+        transform: translate(10px,0px);
+    }
     .header-logo img {
         margin: 5px;
     }
@@ -710,10 +716,14 @@
     .header-menu-icon {
         scale: 0.5;
     }
-     .header-supportPhoneNumber span {
-        scale: 0.5;
-    }
 
+    .header-supportPhoneNumber {
+       display: none;
+    }
+    .header-menu-icon {
+        /* display: flex;
+        justify-content: flex-end; */
+    }
     .Footer-content-maps {
         transform: translate(-100px, 10px);
         scale: 0.8;
@@ -735,6 +745,26 @@
 
     .Comercial-slogan {
         font-size: 12px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .Comercial-introduce-Items {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+    }
+
+    .Comercial-introduce-item {
+        width: 50%;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .SlideIntroduce-Img {
@@ -875,7 +905,7 @@
     /*Footer*/
 }
 
-@media only screen and (max-width: 410px) {
+@media only screen and (max-width: 375px) {
     .header-logo {
         width: 10%;
     }
@@ -952,18 +982,20 @@
         width: 100%;
         transform: translateY(0px);
     }
+
     .CompanyFeature-content {
         width: 100%;
-        padding:5px 10px;
+        padding: 5px 10px;
     }
-    
+
     .CompanyFeature-contentImpress {
         width: 100%;
-        padding:5px 10px;
+        padding: 5px 10px;
         margin-bottom: 10px;
         font-weight: bold;
     }
-    .CompanyFeature-title button{
+
+    .CompanyFeature-title button {
         width: 100%;
     }
 
