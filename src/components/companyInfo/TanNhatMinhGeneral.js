@@ -22,9 +22,7 @@ const TanNhatMinhGeneral = () => {
                     <p className='tnmGeneral-infor'>Tổng đài chăm sóc : 0921881333 - 0966092333 - 0984627696 </p>
                     <p className='tnmGeneral-infor tnmGeneralMarginBtm'>Email : tannhatminhglass@gmail.com</p>
                     <p className='tnmGeneral-infor'>Trụ sở công ty: Cụm công nghiệp phía Bắc, Thị Trấn Quán Lào , Huyện Yên Định, tỉnh Thanh Hóa .</p>
-                    <p className='tnmGeneral-infor'>Công ty TNHH Đức Thắng thành lập ngày 30/ 05/ 2001, sau
-                        hơn 20 năm xây dựng, trưởng thành và phát triển đã trở thành
-                        nhà gia công kính hàng đầu tại Việt Nam với thương hiệu .</p>
+                    <p className='tnmGeneral-infor'></p>
                 </div>
                 <div className='tnmGeneral-companyImg'>
                     <img src={imgCompany} alt="" />

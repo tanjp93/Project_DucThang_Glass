@@ -14,7 +14,7 @@ const CompanyInfor = () => {
                 </ul>
                 <div className='companyInfor-title'>
                     <p>Tiên phong sản xuất </p>
-                    <p>Kính an toàn hàng đầu Việt Nam </p>
+                    <p>Kính An Toàn hàng đầu Việt Nam </p>
                 </div>
                 <div className='companyInfor-title-items' >
                     <p>Tổng Quan Về Chúng Tôi </p>
