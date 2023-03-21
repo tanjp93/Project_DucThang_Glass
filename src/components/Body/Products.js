@@ -12,26 +12,26 @@ const Products = () => {
     const listProducts = [
         {
             id: 1,
-            productName: "Kính Cường Lực",
+            productName: "Cửa, vách, lan can kính cường lực",
             productImgSrc: productImg1
         },
         {
             id: 2,
-            productName: "Kính Dán An Toàn",
+            productName: "Kính màu ốp bếp tường, kính in tranh nghệ thuật",
             productImgSrc: productImg2
         },
         {
             id: 3,
-            productName: "Kính Hộp",
+            productName: "Cabin nhà tắm, phun cát",
             productImgSrc: productImg3
         }, {
             id: 4,
-            productName: "Kính Màu Trang Trí",
+            productName: "Cabin nhà tắm, phun cát",
             productImgSrc: productImg4
         },
         {
             id: 5,
-            productName: "Kính Low E",
+            productName: "Cabin nhà tắm, phun cát",
             productImgSrc: productImg5
         },
         {
@@ -56,8 +56,10 @@ const Products = () => {
     return (
         <div className='products-container'>
             <div className='products-list'>
-                <div className='products-list-Title'>Sản Phẩm</div>
-                <p className='list-introduce'> Các sản phẩm Kính an toàn của Tân Nhật Minh đã và đang được sử dụng trong nhiều công trình trọng điểm quốc gia, trong các công trình lớn khang trang, hiện đại và được đông đảo khách hàng tin dùng.</p>
+                <div className='products-list-Title'> ỨNG DỤNG CỦA KÍNH CƯỜNG LỰC - SẢN PHẨM KÍNH TÂN NHẬT MINH</div>
+                <p className='list-introduce'>
+                    ỨNG DỤNG CỦA KÍNH CƯỜNG LỰC - SẢN PHẨM KÍNH TÂN NHẬT MINH
+                </p>
                 <div className='products'>
                     {showProductImg}
                 </div>
